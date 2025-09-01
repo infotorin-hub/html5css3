@@ -10,7 +10,7 @@ Aprenda HTML5, CSS3 de forma simples, prática e objetiva desenvolvendo passo a 
 ### Personal designer
 [Matheus da Costa](http://matheusdacosta.art.br)
 ### Tipografia
-[Google fonts](https://fonts.google.com
+[Google fonts](https://fonts.google.com)
 ### Imagens
 [Pixaby](https://pixaby.com/pt/)
 
