@@ -4,12 +4,44 @@
     Curso: Curso em Vídeo - HTML5 e CSS3
 */
 
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0; 
+  border: 0;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ccc;
+  color: #333;
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+/* Layout */
+.Conteiner {
+  margin: 0 auto;
+}
+
+
 /* Smartphone Portrait */
 
 /* Smartphone Landscape */
 @media (min-width: 576px){
   body {
     background-color: #0ff;
+  }
+
+  /* Layout */
+  .Conteiner {
+    max-width: 540px;
+    background-color: chocolate;
   }
 }
 
@@ -18,16 +50,25 @@
   body {
     background-color: #ff0;
   }
+    .Conteiner {
+    max-width: 720px;
+  }
 }
 /* Tablet Landscape */
 @media (min-width: 992px){
   body {
     background-color: #f0f;
   }
+    .Conteiner {
+    max-width: 960px;
+  }
 }
 /* Desktop */
 @media (min-width: 1200px){
   body {
-    background-color: #f102029c;
+    background-color: #d87b7b9c;
+  }
+    .Conteiner {
+    max-width: 1140px;
   }
 }
